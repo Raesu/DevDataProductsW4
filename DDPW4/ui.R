@@ -9,7 +9,7 @@ fluidPage(
   p(str_c('Use the check boxes below to update facets in the chart on the right.',
           ' It shows pressure trends over time for each storm status.',
           ' It also fits a linear model to the data. Enjoy :)')),
-  p('Author: Ryan Summe, 5/16/2024')
+  p('Author: Ryan Summe, 5/16/2024'),
   # Sidebar with a slider input for number of bins
   sidebarLayout(
       sidebarPanel(
